@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @katilalloyd
 - 👀 I’m interested in  software engineering
-- 🌱 I’m currently learning  java & online developement
-- 💞️ I’m looking to collaborate on ...
+- 🌱 I’m currently learning  java , python & online web developement
+- 💞️ I’m looking to collaborate on ...java or python
 - 📫 How to reach me lloydtony2002@gmail.com
 
 <!---
