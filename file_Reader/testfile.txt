@@ -1,0 +1,4 @@
+name  :  lloyd tony aktila
+country  :  kenya
+company  :  apple
+salary  :  76890 $

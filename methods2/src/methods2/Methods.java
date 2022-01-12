@@ -7,7 +7,7 @@ public class Methods
 public static void main(String[] args) //testclass 
  {
 		Scanner scanner=new Scanner(System.in);//scanner instantiation
-		System.out.println("hey.......what do you wanna do fella \n1:calculator\n2:factorial calculater");
+		System.out.println("hey.......what do you wanna do fella \n1:calculator\n2:factorial calculater \n3 even or odd");
 		int choice = scanner.nextInt();
 		switch(choice) 
 	  {
@@ -30,10 +30,22 @@ public static void main(String[] args) //testclass
                double factorednumber = obj.Factorial(numberFactorial);
                System.out.println("the factorial of  "+(numberFactorial)+"  =  "+factorednumber );
         break ; 
+		case 3 ://even or odd number
+			  System.out.println(" enter number to find if even or odd");
+			  int num = scanner.nextInt();
+			  EvenOdd(num);
 	  } //swtich closing  
 		scanner.close();//closing scanner
 	}//main class closing
-     public  static long calculate(long num1,long num2,char operator) //
+     public static void  EvenOdd( int num) {
+	     if ( num % 2 == 0 ) {
+	    	 System.out.println( num +  "  is even");
+	     }else {
+	    	 System.out.println(num +" : is odd");
+	     }
+	    	
+}
+	public  static long calculate(long num1,long num2,char operator) //
          { 
 	      long respond = 0;
 	         switch(operator) {   
@@ -52,5 +64,6 @@ public static void main(String[] args) //testclass
         }//closing the for loop
       
       return factorednumber;
-      }//closing the method Factorial 	
+      }//closing the method Factorial 
+   
 }//closing the main class Methods
