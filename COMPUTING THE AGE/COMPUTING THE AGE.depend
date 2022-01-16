@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1610532489 source:d:\programmes\computing the age\main.c
+	<stdio.h>
+	<stdlib.h>
+
