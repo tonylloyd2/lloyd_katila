@@ -245,7 +245,8 @@ print("******** POLITE NOTICE **********")
 print("[+] THESE GAMES ARE EXTREMELY ABUSIVE!!")
 print("\n")
 user_consent = input("[+] Do you wish to continue? [y/n]: ")
-time.sleep(1)
+print(" pleasee wait")
+time.sleep(3)
 
 if user_consent.lower() == "y":
     print("\n")
